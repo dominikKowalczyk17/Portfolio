@@ -6,8 +6,9 @@ import {
   faCss3,
   faGitAlt,
   faHtml5,
-  faJs,
   faReact,
+  faNode,
+  faJsSquare,
 } from '@fortawesome/free-brands-svg-icons'
 import Loader from 'react-loaders'
 
@@ -56,19 +57,22 @@ const About = () => {
         <div className="stage-cub-cont">
           <div className="cubespinner">
             <div className="face1">
-              <FontAwesomeIcon icon={faReact} color="#5ED4F4" />
+              <FontAwesomeIcon icon={faNode} color="#3c873a" />
             </div>
             <div className="face2">
-              <FontAwesomeIcon icon={faHtml5} color="#F06529" />
+              <FontAwesomeIcon icon={faHtml5} color="#e34c26" />
             </div>
             <div className="face3">
-              <FontAwesomeIcon icon={faJs} color="#EFD81D" />
+              <FontAwesomeIcon icon={faCss3} color="#264de4" />
             </div>
             <div className="face4">
-              <FontAwesomeIcon icon={faCss3} color="#28A4D9" />
+              <FontAwesomeIcon icon={faReact} color="#61DBFB" />
             </div>
             <div className="face5">
-              <FontAwesomeIcon icon={faGitAlt} color="#DD0031" />
+              <FontAwesomeIcon icon={faJsSquare} color="#F0DB4F" />
+            </div>
+            <div className="face6">
+              <FontAwesomeIcon icon={faGitAlt} color="#F1502F" />
             </div>
           </div>
         </div>
