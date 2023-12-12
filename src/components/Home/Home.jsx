@@ -28,9 +28,7 @@ const Home = () => {
       setLetterClass('text-animate-hover')
     }, 4000)
 
-    // Return a cleanup function
     return () => {
-      // Clear the timeout if the component unmounts before it fires
       clearTimeout(timeoutId)
     }
   }, [])
